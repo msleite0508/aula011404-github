@@ -28,7 +28,7 @@ public class datas_secao12_calendar {
 		cal.setTime(d);
 		cal.setTime(d);
 		int minutes = cal.get(Calendar.MINUTE);
-		int month = 1 + cal.get(Calendar.MONTH);
+		int month = 1 + cal.get(Calendar.MONTH); // o mes começa com 0
 		
 		System.out.println("Minutes: " + minutes);
 		System.out.println("Month: " + month);
